@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zxx">
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -56,16 +54,25 @@
 	<!-- datepicker -->
 	<link rel="stylesheet" type="text/css" href="assets/css/jquery-ui.min.css">
 	<link rel="stylesheet" href="assets/css/style2.css"/>
-    
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+  <!-- Slick Slider  CSS -->
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+  <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style3.css">
 
 
-	
+
 </head>
 
-<body>
+<body id="top">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
+<header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
@@ -76,13 +83,13 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#plandeestudios">Malla curricular</a></li>
-          <li><a class="nav-link scrollto" href="#galeria">Galería de trabajos</a></li>
+          <li><a class="nav-link scrollto active" href="index.html">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Malla curricular</a></li>
+          <li><a class="nav-link scrollto" href="#services">Galería de trabajos</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Nosotros</a></li>
           <li><a class="nav-link scrollto" href="#team">Vida universitaria</a></li>
           <li><a class="nav-link scrollto" href="#pricing">FAQs</a></li>
-           <li><a class="getstarted scrollto" href="#contacto1">Contacto</a></li>
+           <li><a class="getstarted scrollto" href="#about">Contacto</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -90,1029 +97,90 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-<img src="assets/img/banner1.png" class="img-fluid animated" alt="">
-    <div class="container">
-
-      <div class="row">
-      	 
-        <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-          <h1 data-aos="fade-up"></h1>
-          <h2 data-aos="fade-up" data-aos-delay="400"></h2>
-          <div data-aos="fade-up" data-aos-delay="800">
-            <a href="#about" class="btn-get-started scrollto"></a>
-          </div>
-        </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
-          
-        </div>
-      </div>
-    </div>
-
-  </section><!-- End Hero -->
-
-  <main id="main">
 
 
- <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
+<!-- Slider Start -->
+<section class="banner"  style="background-image: url('assets/img/materia.png'); height: 750px;">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12 col-xl-7">
+				<div class="block">
+					<div class="divider mb-3"></div>
+					<span class="text-uppercase text-sm letter-spacing ">Segundo semestre</span>
+					<h1 class="mb-3 mt-3">0256 06 TEORÍA DE LA COMUNICACIÓN II</h1>
+					
+					<p class="mb-4 pr-5">Introducir al alumno en el conocimiento de la teoría básica de la comunicación y sus fenómenos, además de su aplicación en la creación de modelos funcionales utilizados como soporte en la estrategias de comunicación.  
 
-        <div class="section-title">
-          <h2>Diseño y comunicación visual</h2>
-          <p>Aquí te mostramos el perfil que podrías cumplir al ingresar, egresar e insertarte en el mercado laboral.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="zoom-in-right" data-aos-delay="200">
-              <h3>Perfil de ingreso</h3>
-				        <h4><span> ¿Qué necesito?</span></h4>
-              <ul>
-              	
-                <li>Se recomienda tener inclinación en la exploración de estímulos visuales del entorno, publicidad y comunicación; aptitudes básicas para el dibujo, capacidad de análisis y síntesis de información, así como disposición para el uso de computadora y tecnologías de la imagen; capacidad creativa a partir de observación, investigación, creación y capacidad para la autocrítica.</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Plan de estudios</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box recommended" data-aos="zoom-in" data-aos-delay="100">
-              <h3>Perfil de egreso</h3>
-              <h4><span>¿Qué aprenderé?</span></h4>
-              
-              <ul>
-              
-                <li>Contarás con  conocimientos sobre factores, procesos y fundamentos del diseño, comprenderá y manejara el lenguaje visual para aplicarlo en  estrategias de transmisión de mensajes que satisfacen demandas de comunicación social, cultural, histórica, científica, tecnológica y educativa. Tendrá la capacidad y habilidad de resolver problemas de acuerdo a su área de especialización por medio de herramientas de software específico.</li>
-                
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Especialidades</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in-left" data-aos-delay="200">
-              <h3>Perfil profesional </h3>
-              <h4><span>¿Dónde trabajaré?</span></h4>
-              <ul>
-              	
-                <li>Podrás desarrollarte en una amplia gama de áreas de la producción audiovisual como fotografía, multimedia, el diseño editorial e  ilustración así como en  la aplicación de simbología y diseño en soportes tridimensionales, en la dirección de arte,  dirección en departamentos de diseño, publicidad y comunicación.</li>
-                
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Trabajos de alumnos</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-
- <!-- ======= Features Section ======= -->
-    <section id="plandeestudios" class="features">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up" style="padding: 0px 0px 60px 0px;">
-          <h2>Plan de estudios</h2>
-          <p>A lo largo de los nueve semestres de la licenciatura, el alumno aprenderá a desarrollar y aplicar estrategias de comunicación a través de diferentes medios de forma teórica y práctica, para ello aprenderá el correcto uso de diversas herramientas tanto análogas como digitales. </p>
-        </div>
-
-
-<!-- Plan de estudios -->
-    <div class="page-content">
-		
-		<div class="wizard-v6-content">
-			<div class="wizard-form">
-		        <form class="form-register" id="form-register" action="#" method="post">
-		        	<div id="form-total">
-		        		<!-- SECTION 1 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/PrimerS.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			                <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Primer semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="Materias.html">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="DibujoI.html">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-						<!-- SECTION 2 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Segundo.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			                <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Segundo semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="Arteprecolombino.html">Arte precolombino</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="Dibujo2.html">Dibujo II</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="Diseño2.html">Diseño II</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="Geometria2.html">Geometría II</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="Metodologiadelainvestigacion2.html">Metodología de la investigación II</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="Teoriadelaimagen2.html">Teoría de la imagen II</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="Teoriadelacomunicacion2.html">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-			            <!-- SECTION 3 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Tercero.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			               <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Tercer semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 4 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Cuarto.png" style="width: 100%; padding: 0px;"></span></p>
-			            
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			                <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Cuarto semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 5 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Quinto.png" style="width: 100%; padding: 0px;"></span></p>
-			            
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			               <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Quinto semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 6 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Sexto.png" style="width: 100%; padding: 0px;"></span></p>
-			            
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			              <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Sexto semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 7 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Septimo.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			                <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Septimo semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 8 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Octavo.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			              <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Octavo semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-			             <!-- SECTION 9 -->
-			            <h2>
-			            	<p class="step-icon"><span><img src="assets/img/icons/Noveno.png" style="width: 100%; padding: 0px;"></span></p>
-			            	
-			            </h2>
-			            <section style="padding: 20px 50px 50px 50px;">
-			              <div class="section-title" data-aos="fade-up">
-          <h3 style="color: #f15845;">Noveno semestre</h3>
-          <p>En este semestre te adentrarás a los inicios del disñeo tanto en la tecnica como en la teoria, te presentamos cada una de las materias que se imparte, si quieres saber más sobre ellas solo tiene que dar clic. ¡Descubre las más de 50 materias que tiene nuestro plan de estudios! </p>
-        </div>
-
-
-        <div class="row" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-3 col-md-4">
-            <div class="icon-box">
-              
-              <h3><span class="step-text"><a href="">Arte antiguo</a></span></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Dibujo I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-            <div class="icon-box">
-             
-              <h3><a href="">Diseño I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              
-              <h3><a href="">Geometría I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-       
-              <h3><a href="">Metodología de la investigación</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-            
-              <h3><a href="">Teoría de la imagen I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoria de la comunicación I</a></h3>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 mt-4">
-            <div class="icon-box">
-              
-              <h3><a href="">Teoría del arte I</a></h3>
-            </div>
-          </div>
-          
-        </div>
-			            </section>
-
-
-		        	</div>
-		        </form>
+</p>
+					<div class="btn-container ">
+						<a href="https://www.cuautitlan.unam.mx/licenciaturas/dcv/descargas/segundo_semestre/TEORIA%20DE%20LA%20COMUNICACION%20II.pdf" class="btn btn-main-2 btn-icon btn-round-full">Descarga el programa  <i class="icofont-simple-right ml-2  "></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-<!-- Plan de estudios FINAL -->
+</section>
+<section class="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							 <img src="assets/img/icons/teorica3.png" style="width: 30%;">
+						</div>
+						<span>Materia Teórica</span>
+						<h4 class="mb-3">Objetivos de la materia</h4>
+						<ul>
+
+					
+						<li type="circle">Comprender la importancia de los medios masivos</li>
+						<li type="circle">Conocer y aplicar las diferentes técnicas que se utilizan para la construcción de los mensajes a través de las imágenes</li>
+						<li type="circle">Conocer los principales sistemas de significación</li>
+            <li type="circle">Conocer los efectos en la comunicación que ocasionan los medios masivos</li>
+            <li type="circle">Diferenciar las características de los diferentes medios masivos de comunicación</li>
+						
+
+						</ul>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<img src="assets/img/icons/maestro.png" style="width: 23%;">
+						</div>
+						<span>Conoce a tus</span>
+						<h4 class="mb-3">Profesores</h4>
+						<ul class="w-hours list-unstyled">
+		                    <li class="d-flex justify-content-between">Luisa Martínez Ocampo</li>
+		                    <li class="d-flex justify-content-between">Carlos León Castillo Sánchez
+</li>
+		                    <li class="d-flex justify-content-between">Luis Alfredo Oropeza López</li>
+		                </ul>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<img src="assets/img/icons/materiales3.png" style="width: 30%;">
+						</div>
+						<span>Prepara tus</span>
+						<h4 class="mb-3">Materiales</h4>
+						<ul class="w-hours list-unstyled">
+		                    <li class="d-flex justify-content-between">Lápices de color, plumones</li>
+		                    <li class="d-flex justify-content-between">Revistas, libros de recortes</li>
+                        <li class="d-flex justify-content-between">Hojas de papel</li>
+		                  
+		                </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="galeria" class="portfolio">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Galería de trabajos</h2>
-          <p>Te invitamos a darles un vistazo a los trabajos que han realizado los alumnos de la licenciatura durante distintos semestres.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-ilus">Ilustración y editorial</li>
-              <li data-filter=".filter-multi">Multimedia</li>
-              <li data-filter=".filter-envase">Envase y embalaje</li>
-              <li data-filter=".filter-otros">Otros</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ilus">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/car3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ilustración</h4>
-                <p>Feminismo</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/car3open.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-ilus">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/car4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Ilustración</h4>
-                <p>Mujer en llamas</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/car4open.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-envase">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/car2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Envase</h4>
-                <p>Crema anti arrugas</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/car2open.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/son1.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/son1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/son2.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/son2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/son3.png" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/son3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    
-
-   
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Testimonios</h2>
-          <p>Conoce las experiencias de ex alumnos en esta licenciatura</p>
-        </div>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/Carmen.jpg" class="testimonial-img" alt="">
-                  <h3>Carmen Cuevas</h3>
-                  <h4>Diseñadora UX/UI</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A lo largo de los 8 semestres que he cursado en la FESC, he disfrutado mucho de los conocimientos de mis profesores y el ambiente que se vive en el edificio de DCV, los compañeros tienen mucho talento y siempre hay algo que hacer en la facultad, nunca terminas de sorprendente. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/maricruz.jpeg" class="testimonial-img" alt="">
-                  <h3>Maricruz Angeles</h3>
-                  <h4>Fotografa</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A cada paso y a cada semestre cursado estoy muy feliz de haber entrado en este mundo de DCV,  pues antes de la pandemia. la universidad fue una segunda casa para mi, haciendo lo que me gusta. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/son.jpeg" class="testimonial-img" alt="">
-                  <h3>Sonia Aguilar</h3>
-                  <h4>Diseñadora especializada en soportes</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A cada paso y a cada semestre cursado estoy muy feliz de haber entrado en este mundo de DCV,  pues antes de la pandemia. la universidad fue una segunda casa para mi, haciendo lo que me gusta. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Gabriela Torres</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A cada paso y a cada semestre cursado estoy muy feliz de haber entrado en este mundo de DCV,  pues antes de la pandemia. la universidad fue una segunda casa para mi, haciendo lo que me gusta. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Emprendedor</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    A lo largo de los 8 semestres que he cursado en la FESC, he disfrutado mucho de los conocimientos de mis profesores y el ambiente que se vive en el edificio de DCV, los compañeros tienen mucho talento y siempre hay algo que hacer en la facultad, nunca terminas de sorprendente. 
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
 
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contacto1" class="contact">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Contactanos</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-              <h3>DCV</h3>
-              <p>Estamos seguros que en diseño y comunicación visual, encontrarás tu camino a la creatividad y el diseño, escribenos si tienes alguna duda.</p>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>Cuautitlan Izcalli<br>Estado de México</p>
-              </div>
-
-              <div>
-                <i class="ri-mail-send-line"></i>
-                <p>info@dcvfesc.com</p>
-              </div>
-
-              <div>
-                <i class="ri-phone-line"></i>
-                <p>+1 5589 55488 55</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Tu nombre" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Tu email" required>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Escribe aquí tu mensaje" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Cargando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Escribe aquí tu mensaje. ¡Gracias!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensaje</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
+ <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <div class="row d-flex align-items-center">
@@ -1140,7 +208,7 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+ <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1177,7 +245,31 @@
 	<script src="assets/js/jquery.steps.js"></script>
 	<script src="assets/js/jquery-ui.min.js"></script>
 	<script src="assets/js/main1.js"></script>
+   
 
-</body>
+    <!-- 
+    Essential Scripts
+    =====================================-->
 
-</html>
+    
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+    
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+  </body>
+  </html>
+   
